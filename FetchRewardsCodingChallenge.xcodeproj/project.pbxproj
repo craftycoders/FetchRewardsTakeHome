@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5090AEB0CB10913DCE5E752B /* Pods_FetchRewardsCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31DF0948B629691D95DDAE5 /* Pods_FetchRewardsCodingChallenge.framework */; };
 		DE33300326C432970076949C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33300226C432970076949C /* AppDelegate.swift */; };
 		DE33300526C432970076949C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33300426C432970076949C /* SceneDelegate.swift */; };
 		DE33300726C432970076949C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33300626C432970076949C /* ViewController.swift */; };
 		DE33300A26C432970076949C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE33300826C432970076949C /* Main.storyboard */; };
 		DE33300C26C432980076949C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE33300B26C432980076949C /* Assets.xcassets */; };
 		DE33300F26C432980076949C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE33300D26C432980076949C /* LaunchScreen.storyboard */; };
+		DE33301726C4339D0076949C /* MealRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33301626C4339D0076949C /* MealRequestHandler.swift */; };
+		DE33301B26C433FC0076949C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33301A26C433FC0076949C /* Category.swift */; };
+		DE33302126C438CE0076949C /* RequestErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33302026C438CE0076949C /* RequestErrors.swift */; };
+		DE33302626C43A060076949C /* MealEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33302526C43A060076949C /* MealEventHandler.swift */; };
+		DE33302A26C4578B0076949C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33302926C4578B0076949C /* Meal.swift */; };
+		DE33302C26C45DC50076949C /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33302B26C45DC50076949C /* MealDetail.swift */; };
+		DE33302E26C4627E0076949C /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33302D26C4627E0076949C /* MealCell.swift */; };
+		DE33303026C4628D0076949C /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE33302F26C4628D0076949C /* MealCell.xib */; };
+		DE33303326C46BB20076949C /* MealDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33303226C46BB20076949C /* MealDataSource.swift */; };
+		DE33303526C488980076949C /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33303426C488980076949C /* MealViewModel.swift */; };
+		DE33303826C49C390076949C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33303726C49C390076949C /* DetailViewController.swift */; };
+		DE33303A26C49D500076949C /* MealDetailEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33303926C49D500076949C /* MealDetailEventHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A4CE9B903696116890013FD /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		529B2D8010873D5B2DE7DF0B /* Pods-FetchRewardsCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		C31DF0948B629691D95DDAE5 /* Pods_FetchRewardsCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchRewardsCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE332FFF26C432970076949C /* FetchRewardsCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewardsCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE33300226C432970076949C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE33300426C432970076949C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,18 @@
 		DE33300B26C432980076949C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE33300E26C432980076949C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE33301026C432980076949C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE33301626C4339D0076949C /* MealRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRequestHandler.swift; sourceTree = "<group>"; };
+		DE33301A26C433FC0076949C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DE33302026C438CE0076949C /* RequestErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestErrors.swift; sourceTree = "<group>"; };
+		DE33302526C43A060076949C /* MealEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealEventHandler.swift; sourceTree = "<group>"; };
+		DE33302926C4578B0076949C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DE33302B26C45DC50076949C /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		DE33302D26C4627E0076949C /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		DE33302F26C4628D0076949C /* MealCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealCell.xib; sourceTree = "<group>"; };
+		DE33303226C46BB20076949C /* MealDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataSource.swift; sourceTree = "<group>"; };
+		DE33303426C488980076949C /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		DE33303726C49C390076949C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DE33303926C49D500076949C /* MealDetailEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailEventHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5090AEB0CB10913DCE5E752B /* Pods_FetchRewardsCodingChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9709519294692C3E27A1590B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C31DF0948B629691D95DDAE5 /* Pods_FetchRewardsCodingChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D64918A10D2A10A5E6CCAE32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A4CE9B903696116890013FD /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */,
+				529B2D8010873D5B2DE7DF0B /* Pods-FetchRewardsCodingChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE332FF626C432970076949C = {
 			isa = PBXGroup;
 			children = (
 				DE33300126C432970076949C /* FetchRewardsCodingChallenge */,
 				DE33300026C432970076949C /* Products */,
+				D64918A10D2A10A5E6CCAE32 /* Pods */,
+				9709519294692C3E27A1590B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +106,89 @@
 			children = (
 				DE33300226C432970076949C /* AppDelegate.swift */,
 				DE33300426C432970076949C /* SceneDelegate.swift */,
-				DE33300626C432970076949C /* ViewController.swift */,
-				DE33300826C432970076949C /* Main.storyboard */,
+				DE33301C26C4340C0076949C /* Model */,
+				DE33301F26C4346A0076949C /* ViewModels */,
+				DE33301E26C4342C0076949C /* Views */,
+				DE33303626C49C160076949C /* ViewControllers */,
+				DE33303126C46B970076949C /* Datasources */,
+				DE33302426C439EF0076949C /* EventHandlers */,
+				DE33301826C433A70076949C /* RequestHandlers */,
+				DE33302226C438E20076949C /* Utilities */,
 				DE33300B26C432980076949C /* Assets.xcassets */,
 				DE33300D26C432980076949C /* LaunchScreen.storyboard */,
 				DE33301026C432980076949C /* Info.plist */,
 			);
 			path = FetchRewardsCodingChallenge;
+			sourceTree = "<group>";
+		};
+		DE33301826C433A70076949C /* RequestHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				DE33301626C4339D0076949C /* MealRequestHandler.swift */,
+			);
+			path = RequestHandlers;
+			sourceTree = "<group>";
+		};
+		DE33301C26C4340C0076949C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE33301A26C433FC0076949C /* Category.swift */,
+				DE33302926C4578B0076949C /* Meal.swift */,
+				DE33302B26C45DC50076949C /* MealDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE33301E26C4342C0076949C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE33302D26C4627E0076949C /* MealCell.swift */,
+				DE33302F26C4628D0076949C /* MealCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE33301F26C4346A0076949C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DE33303426C488980076949C /* MealViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DE33302226C438E20076949C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DE33302026C438CE0076949C /* RequestErrors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DE33302426C439EF0076949C /* EventHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				DE33302526C43A060076949C /* MealEventHandler.swift */,
+				DE33303926C49D500076949C /* MealDetailEventHandler.swift */,
+			);
+			path = EventHandlers;
+			sourceTree = "<group>";
+		};
+		DE33303126C46B970076949C /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				DE33303226C46BB20076949C /* MealDataSource.swift */,
+			);
+			path = Datasources;
+			sourceTree = "<group>";
+		};
+		DE33303626C49C160076949C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE33300826C432970076949C /* Main.storyboard */,
+				DE33300626C432970076949C /* ViewController.swift */,
+				DE33303726C49C390076949C /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE33301326C432980076949C /* Build configuration list for PBXNativeTarget "FetchRewardsCodingChallenge" */;
 			buildPhases = (
+				EDEDE38B00F352B88D08FD88 /* [CP] Check Pods Manifest.lock */,
 				DE332FFB26C432970076949C /* Sources */,
 				DE332FFC26C432970076949C /* Frameworks */,
 				DE332FFD26C432970076949C /* Resources */,
+				83FB094943721C08C43842D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE33303026C4628D0076949C /* MealCell.xib in Resources */,
 				DE33300F26C432980076949C /* LaunchScreen.storyboard in Resources */,
 				DE33300C26C432980076949C /* Assets.xcassets in Resources */,
 				DE33300A26C432970076949C /* Main.storyboard in Resources */,
@@ -132,12 +259,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83FB094943721C08C43842D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDEDE38B00F352B88D08FD88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FetchRewardsCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE332FFB26C432970076949C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE33303826C49C390076949C /* DetailViewController.swift in Sources */,
+				DE33302E26C4627E0076949C /* MealCell.swift in Sources */,
 				DE33300726C432970076949C /* ViewController.swift in Sources */,
+				DE33301B26C433FC0076949C /* Category.swift in Sources */,
+				DE33302126C438CE0076949C /* RequestErrors.swift in Sources */,
+				DE33303A26C49D500076949C /* MealDetailEventHandler.swift in Sources */,
+				DE33302C26C45DC50076949C /* MealDetail.swift in Sources */,
+				DE33303526C488980076949C /* MealViewModel.swift in Sources */,
+				DE33302626C43A060076949C /* MealEventHandler.swift in Sources */,
+				DE33302A26C4578B0076949C /* Meal.swift in Sources */,
+				DE33303326C46BB20076949C /* MealDataSource.swift in Sources */,
+				DE33301726C4339D0076949C /* MealRequestHandler.swift in Sources */,
 				DE33300326C432970076949C /* AppDelegate.swift in Sources */,
 				DE33300526C432970076949C /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +463,7 @@
 		};
 		DE33301426C432980076949C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4CE9B903696116890013FD /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +482,7 @@
 		};
 		DE33301526C432980076949C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529B2D8010873D5B2DE7DF0B /* Pods-FetchRewardsCodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
